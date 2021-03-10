@@ -1,0 +1,90 @@
+img{position:relative}
+
+
+*,html,body
+{
+	position:relative;
+	margin:0;
+	padding:0 ;
+}
+header{
+	background-color: #90EE90;
+	height:60px;
+}
+ul{
+	list-style: none;
+}
+ul li{
+	display: inline-block;
+}
+header nav{
+	float: right;
+}
+.logo img{
+
+    margin-top:0px;
+	height:60px;
+	width:360px;
+
+}
+header nav ul li a{
+	text-decoration: none;
+	padding-right: 30px ;
+	font-weight: bold;
+	font-size :20px;
+	color: black;
+	transition: all 0.9s;
+}
+header nav ul {
+	padding-right: 100px ;
+	padding-top: 20px ;
+}
+header nav ul li a:hover{
+
+	color: white;
+
+}
+
+body{
+	background-image:url(bimg.jpg);
+background-size:100% ;
+	
+}
+.card{
+	width:200px;
+	height:230px;
+	display:inline-block;
+	border-radius:10px;
+	padding:15px 15px;
+	box-sizing: border-box;
+	cursor:pointer;
+	margin:10px 15px ;
+	
+	background-position:center;
+	background-size:cover;
+	transition:transform 0.5s;
+}
+.card1{
+	
+	background-image:url(calc.jpg);
+}
+.card2{
+	
+	background-image:url(math.jpg);
+}
+.card3{
+	background-image:url(future.jpg);
+}
+.col{
+	margin-left:250px;
+	margin-top:100px
+}
+.card:hover{
+	transform: translatey(-10px)
+	
+}
+h5{
+	font-size:25px;
+	color:white;
+	font-family:Arial Black;
+}
